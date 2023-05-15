@@ -1,7 +1,7 @@
-package GustavoSantos_SegundaLista;
 //algoritmo: lista todos os números inteiros de 0-1000 
 //nome: Gustavo B.(ThorfDivine)
-//
+//15/05/2023
+package GustavoSantos_SegundaLista;
 import java.util.Scanner;// sistema que trara a possibiblidade de receber informações
 public class GustavoSantos_exercicio04 {
     public static void main(String[] args){
