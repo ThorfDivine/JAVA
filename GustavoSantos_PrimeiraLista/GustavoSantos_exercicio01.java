@@ -1,4 +1,4 @@
-//algoritmo:  leia 4 números, inseridos pelo usuário, some os números e mostre o resultado na tela
+//algoritmo: some 4 números e mostre o resultado na tela
 //nome: Gustavo B(ThorfDivine)
 //data: 12/05/2023      
 
