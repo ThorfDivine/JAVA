@@ -1,5 +1,5 @@
 package GustavoSantos_SegundaLista;
-//algoritmo: lista todos os números inteiros dentre os 2 selecionados 
+//algoritmo: lista todos os números inteiros entre os 2 selecionados 
 //nome: Gustavo B.(ThorfDivine)
 //
 import java.util.Scanner;// sistema que trara a possibiblidade de receber informações
