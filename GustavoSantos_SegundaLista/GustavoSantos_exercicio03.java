@@ -1,7 +1,7 @@
-package GustavoSantos_SegundaLista;
 //algoritmo: calcula a media de 500 números digitados pelo usuario; 
 //nome: Gustavo B.(ThorfDivine);
 //data: 13/05/2023.
+package GustavoSantos_SegundaLista;
 import java.util.Scanner;// sistema que trara a possibiblidade de receber informações
 public class GustavoSantos_exercicio03 {
     public static void main(String[] args){
