@@ -1,4 +1,4 @@
-//algoritmo: receba 4 números, inserido pelo usuário; calcule o quadrado de cada um (número²); some todos os valores e mostre o resultado
+//algoritmo: calcule o quadrado de 4 números(número²) some todos os valores e mostre o resultado
 //nome: Gustavo B(ThorfDivine)
 //data: 12/05/2023      
 
