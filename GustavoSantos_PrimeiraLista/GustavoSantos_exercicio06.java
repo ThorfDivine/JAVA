@@ -1,4 +1,4 @@
-//algoritmo: calcule o perímetro de um círculo, onde o valor do raio será inserido pelo usuário. (Perímetro = 2π * r)
+//algoritmo: calcule o perímetro de um círculo, onde o valor do raio será inserido pelo usuário
 //nome: Gustavo B(ThorfDivine)
 //data: 12/05/2023      
 

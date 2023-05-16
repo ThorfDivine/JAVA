@@ -1,4 +1,4 @@
-//algoritmo: baseado na cotação atual do dólar, calcule a conversão do número inserido pelo usuário para dólar
+//algoritmo: calcule a conversão do real para dólar
 //nome: Gustavo B(ThorfDivine)
 //data: 12/05/2023      
 
