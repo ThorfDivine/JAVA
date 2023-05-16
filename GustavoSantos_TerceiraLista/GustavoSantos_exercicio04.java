@@ -1,4 +1,4 @@
-package GustavoSantos_SegundaLista;
+package GustavoSantos_TerceiraLista;
 //algoritmo: lista todos os números inteiros de 0-1000 
 //nome: Gustavo B.(ThorfDivine)
 //

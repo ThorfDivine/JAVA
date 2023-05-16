@@ -1,7 +1,7 @@
 //algoritmo: faz uma lista em que mostra qual número a pessoa escolheu, na mesma quantia do número.
 //nome: Gustavo B.(ThorfDivine)
 //data: 13/05/2023
-package GustavoSantos_SegundaLista;
+package GustavoSantos_TerceiraLista;
 
 import java.util.Scanner;// sistema que trara a possibiblidade de receber informações
 public class GustavoSantos_Desafio02 {
@@ -19,10 +19,10 @@ public class GustavoSantos_Desafio02 {
         System.out.println("digite um numero, iremos repetir esse numero o tanto de vezes que esse numero representa: ");
         n1 = l1.nextInt();
         //começando laço de repetição
-        while (n2 < n1) {
+        do{
             System.out.println(n1);
             n2++;
-        }
+        }while (n2 < n1);
 
     //FIM.    
 

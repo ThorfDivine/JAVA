@@ -1,4 +1,4 @@
-package GustavoSantos_SegundaLista;
+package GustavoSantos_TerceiraLista;
 //algoritmo: lista todos os números inteiros dentre os 2 selecionados 
 //nome: Gustavo B.(ThorfDivine)
 //
@@ -19,14 +19,13 @@ public class GustavoSantos_exercicio02 {
         System.out.println("escrvea o número sucessor ao ultimo número da contagem: ");
         n2 = l1.nextInt();
 
-        while (n1 <= n2) {// loop que conta os numeros
+         do{// loop que conta os numeros
             n1 ++;
-            if (n1 < n2) {
-                System.out.println(n1);             
+            if (n1 < n2) {     
+                System.out.println(n1);        
             }
-            
-           
-        }
+
+            }while (n1 < n2);
         //FIM.
     }
 }
