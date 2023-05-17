@@ -15,7 +15,7 @@ public class GustavoSantos_Desafio01 {
         
         if (n2==10) { // identificando se o número é multiplo de 10
             System.out.println("o número: "+ n1 +" é um múltiplo de 10");
-            n2 = 0;
+            n2 = 0; //reinicia o contador cada vez que chega a dez, para que indique todos os multiplos
         }
         else{
         System.out.println("seu numero atual é: "+n1);} 

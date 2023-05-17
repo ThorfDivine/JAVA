@@ -3,7 +3,7 @@
 //algoritmo: mostra se passou ou se reprovou
 //data: 08/05/2023
 
-package JAVA.exemplos;
+package exemplos;
 
 import java.util.Scanner;
 
