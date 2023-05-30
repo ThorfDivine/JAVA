@@ -13,11 +13,12 @@ public class GustavoSantos_PrimeiroExercicio{
         Scanner l1 = new Scanner(System.in);
         //inicio
         //iniciando variaveis
-        n1 = res= 0.0;
+        n1 = res= 0.0; 
         control = "s";
-
-        while(control.equals("s")) {
+        //começando laços
+        while(control.equals("s")) { 
             i ++;
+            //recebendo valores
             if (i == 1) {
                 System.out.println("escreva o primeiro número da soma");
                 n1 = l1.nextDouble();
@@ -25,7 +26,7 @@ public class GustavoSantos_PrimeiroExercicio{
             else{
                 System.out.println("escreva o próximo número da soma");
                 n1 = l1.nextDouble();}            
-         
+            //averiguando
             if (Math.pow(n1, 2) % 4 ==0) {
                 res += n1;
             }

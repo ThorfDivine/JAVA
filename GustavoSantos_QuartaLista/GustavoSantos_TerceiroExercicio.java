@@ -1,4 +1,4 @@
-//algoritmo:some todos os números cujo quadrado (x²) for divisível por 4.
+//algoritmo:pegar 50 números inteiros aleatorios e somar, fazer o mesmo com números quebrados e verificar
 //autor: Gustavo B.(ThorfDivine)
 //data: 29/05/2023
 import java.util.Scanner;
@@ -16,14 +16,15 @@ public class GustavoSantos_TerceiroExercicio{
         dou1  =  0.0;
         int1 =  0;
 
-
-        for (int i = 0; i < 50; i++) {
+        //recebendo os números inteiros aleatorios
+        for (int i = 0  ; i < 50; i++) {
             int1 += gerador.nextInt();
         }
+         //recebendo os números quebrados aleatorios
         for (int i = 0; i < 50; i++) {
             int1 += gerador.nextDouble();
         }
-
+        //verificando
         if (int1 > dou1) {
             System.out.println("os números interiros são maiores que os quebrados.\n soma inteiros: "+int1);
         }
