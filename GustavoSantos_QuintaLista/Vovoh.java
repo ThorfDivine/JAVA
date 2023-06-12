@@ -1,3 +1,6 @@
+//algoritmo: criar um metodo com 5 atributos e 1 metodo contrutor
+//nome: Gustavo Batista(ThorfDivine)
+//data: 12/06/2023
 public class Vovoh {
     public static void main(String[] args){
         
