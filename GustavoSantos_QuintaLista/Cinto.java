@@ -3,7 +3,7 @@
  *Data: 07/06/2023
  */
 public class Cinto {
-    public static void main(String[] args) {}
+    public static void main(String[] args){}
     
 }
 class cintos{

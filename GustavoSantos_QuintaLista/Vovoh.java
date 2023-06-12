@@ -3,7 +3,12 @@
 //data: 12/06/2023
 public class Vovoh {
     public static void main(String[] args){
-        
+        vovohs lila = new vovohs("azul", 7000, 100000000F, 'L', true);
+        System.out.println(lila.anosDVo);
+        System.out.println(lila.corDVo);
+        System.out.println(lila.inicialN);
+        System.out.println(lila.vivaS);
+        System.out.println(lila.qntQFlt);
     }
 }
 class vovohs{

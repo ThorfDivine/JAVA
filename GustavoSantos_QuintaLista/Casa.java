@@ -3,7 +3,9 @@
  *Data: 07/06/2023
  */
 public class Casa {
-    public static void main(String[] args) {}
+    public static void main(String[] args) {
+        
+    }
 }
 
 class casas{

@@ -38,7 +38,7 @@ public class sayajin {
         this.tamanhoDoKi = tamanhoKi;
         this.classeDoSayajin = classeSayajin;
         this.homem = eHomem;
-        this.corDoKi =  corKi;
+        this.corDoKi = corKi;
         this.corDoBelo = corBelo;
         this.corDaPele = corPele;
         this.altura = alturas;
