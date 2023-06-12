@@ -10,10 +10,10 @@ class vovohs{
     char inicialN; 
     boolean vivaS;
     public vovohs(String corVo, int anosVo, Float qntFlt, char inicial, boolean viva){
-        corDVo = corVo;
-        anosDVo = anosVo;
-        qntQFlt = qntFlt;
-        inicialN = inicial;
-        vivaS = viva;
+        corVo = corDVo;
+        anosVo = anosDVo;
+        qntFlt = qntQFlt;
+        inicial = inicialN;
+        viva = vivaS;
     }
 }
