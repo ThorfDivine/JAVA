@@ -1,4 +1,4 @@
-/*algoritmo: criando uma classe "casa" com 10 atributos
+/*algoritmo: criando uma classe "casa" com 10 atributos e 5 métodos
  *nome: Gustavo
  *Data: 07/06/2023
  */
