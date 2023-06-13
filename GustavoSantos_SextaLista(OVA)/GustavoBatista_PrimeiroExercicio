@@ -1,0 +1,63 @@
+//algoritmo: receber o numero de linhas, e passar a piramide alfabetica
+//nomes: Gustavo B.(ThorfDivine) Gabriel N.(Guttemberg)
+//data: 13/06/2023
+import java.util.Scanner;
+
+public class ex1{
+    public static void main(String [] args){
+        int linhas;
+        Scanner l1 = new Scanner(System.in);
+        char[] alfabetoMai = {'A', 'B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'}; 
+        char[] alfabetoMin = {'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'};
+        String word = "";
+        String MaiMin;
+        String ponto="";
+
+        
+
+//---------------------------------------------------------------------------------//
+
+        MaiMin = l1.nextLine();
+        String[] parts = MaiMin.split(" ");
+        linhas = Integer.parseInt(parts[0]); 
+        MaiMin = parts[1]; 
+
+
+
+
+        
+//---------------------------------------------------------------------------------//
+        switch (MaiMin) {
+            case "maiuscula":
+            for (int i = 0; i < linhas; i++) {
+                word += String.valueOf(alfabetoMai[i]);
+                word.toUpperCase();
+                for (int j = 0; j <= 25 - i; j++){
+                if(j == 0){
+                ponto = "";
+                }else{
+                ponto += "."; }}
+                System.out.println(ponto+word+"\n");
+            }
+                break;
+//---------------------------------------------------------------------------------//
+            case "minuscula":
+            for (int k = 0; k < linhas; k++){
+                word += String.valueOf(alfabetoMin[k]);
+                for (int j = 0; j <= 25 - k ; j++) {
+                    if(j == 0){
+                        ponto = "";
+                        }else{
+                        ponto += "."; }
+                }
+                System.out.println(ponto+word+"\n");
+            }
+                break;
+//---------------------------------------------------------------------------------//
+            default:
+            System.out.println("escreva exatamente do jeito ordenado");
+           
+                break;
+        }
+    }
+}
