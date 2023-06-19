@@ -4,16 +4,21 @@
  */
 public class Casa {
     public static void main(String[] args) {
+        casas.corExterna = "azul";
+        casas.peso = 1000.09f;
+        casas.tatuBolinhas = 22;
+        casas.tamanho = 80;
+        casas.serBranca = false;
+        casas.corInterna = "verde";
+
         
         System.out.println(casas.corExterna);
         System.out.println(casas.peso);
         System.out.println(casas.tatuBolinhas);
         System.out.println(casas.tamanho);
         System.out.println(casas.serBranca);
-        System.out.println(casas.dono);
         System.out.println(casas.corInterna);
-        System.out.println(casas.corTeto);
-        System.out.println(casas.idade);
+
         System.out.println();
         System.out.println(casas.existe);
         System.out.println(casas.gerarMoleculas());
