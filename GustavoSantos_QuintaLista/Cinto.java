@@ -3,7 +3,14 @@
  *Data: 07/06/2023
  */
 public class Cinto {
-    public static void main(String[] args){}
+    public static void main(String[] args){
+        system.out.println(cintos.hit());
+        system.out.println(cintos.intensidadeMaxDoHit());
+        system.out.println(cintos.agarrar());
+        system.out.println(cintos.partir());
+        system.out.println(cintos.existir());
+        system.out.println(cintos.formarLetra());
+    }
     
 }
 class cintos{
