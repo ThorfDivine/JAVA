@@ -5,6 +5,24 @@
 public class Casa {
     public static void main(String[] args) {
         
+        System.out.println(casas.corExterna);
+        System.out.println(casas.peso);
+        System.out.println(casas.tatuBolinhas);
+        System.out.println(casas.tamanho);
+        System.out.println(casas.serBranca);
+        System.out.println(casas.dono);
+        System.out.println(casas.corInterna);
+        System.out.println(casas.corTeto);
+        System.out.println(casas.idade);
+        System.out.println();
+        System.out.println(casas.existe);
+        System.out.println(casas.gerarMoleculas());
+        System.out.println(casas.deterionar());
+        System.out.println(casas.explodir());
+        System.out.println(casas.ficarQuente());
+        System.out.println(casas.esfriar());
+        System.out.println(casas.absorverAgua());
+        
     }
 }
 
